@@ -29,7 +29,8 @@ Command:
 cmd
 ipconfig /all
 Output:
-https://screenshots/ipconfig-all.png
+
+
 
 ##### What I Learned:
 
