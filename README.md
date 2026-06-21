@@ -147,9 +147,6 @@ Why I ran it: To verify specific services are running and accessible.
 powershell
 Test-NetConnection DC01 -Port 53
 
-Output:
-https://screenshots/ipconfig-all.png
-
 ##### What I Learned:
 
 - Tests if specific services (ports) are available
