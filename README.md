@@ -17,6 +17,8 @@ The following command we run
 | `nslookup` | Test DNS resolution | Diagnose name resolution issues |
 | `Test-NetConnection` | Test ports/services | Verify specific services are running and accessible |
 
+---
+
 ### 🖥️ Command Demonstrations
 
 #### 1. ipconfig /all - Network Configuration Check
@@ -89,5 +91,6 @@ https://screenshots/ipconfig-all.png
 - If this fails but internal ping works, gateway is the issue
 
 ##### Key takeaway
-use a layered approach with ping: first loopback (127.0.0.1), then my own IP, then the gateway, then an external IP like 8.8.8.8, and finally a domain name like google.com. This tells me exactly where the connectivity problem is - whether it's local, network, or DNS-related.
 Use a layered approach with ping: first loopback (127.0.0.1), then my own IP, then the gateway, then an external IP like 8.8.8.8, and finally a domain name like google.com. This tells me exactly where the connectivity problem is - whether it's local, network, or DNS-related.
+
+---
