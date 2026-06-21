@@ -43,11 +43,13 @@ Output:
 #### 2. ping - Connectivity Testing
 Why I ran it: To verify connectivity at different levels - local, network, internet, and DNS.
 
-##### Test 1: Local Connectivity
+##### Test 2.1: Local Connectivity
 cmd
 ping 127.0.0.1
 Output:
-https://screenshots/ipconfig-all.png
+
+<img width="1600" height="1200" alt="WhatsApp Image 2026-06-21 at 11 10 11 PM (1)" src="https://github.com/user-attachments/assets/80864d11-9ee6-4a92-ad7f-8a1359305ba6" />
+
 
 ##### What I Learned:
 
