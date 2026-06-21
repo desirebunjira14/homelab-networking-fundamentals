@@ -37,18 +37,57 @@ https://screenshots/ipconfig-all.png
 - Identifies which DNS servers are being used
 
 #### 2. ping - Connectivity Testing
-Why I ran it: First step in any network issue - check if the computer has a valid IP address.
+Why I ran it: To verify connectivity at different levels - local, network, internet, and DNS.
 
-Command:
-
+##### Test 1: Local Connectivity
 cmd
-ipconfig /all
+ping 127.0.0.1
 Output:
 https://screenshots/ipconfig-all.png
 
 ##### What I Learned:
 
-- The first thing to check when troubleshooting
-- Shows if computer has an IP, subnet, gateway, and DNS
-- Confirms DHCP is working (or if using static IP)
+- Verifies TCP/IP stack is working
+- If this fails, there's a serious OS-level issue
+- This is the first test before checking anything else
 - Identifies which DNS servers are being used
+
+##### Test 2: Network Connectivity
+cmd
+ping 172.16.0.10
+Output:
+https://screenshots/ipconfig-all.png
+
+##### What I Learned:
+
+- Tests if I can reach specific devices on my network
+- DC01 responds - internal network is working
+- Use ping [hostname] to test DNS + connectivity
+
+##### Test 3: Internet Connectivity
+cmd
+ping 8.8.8.8
+Output:
+https://screenshots/ipconfig-all.png
+
+##### What I Learned:
+
+- Tests internet connectivity without DNS dependency
+- Good response time (12ms) indicates healthy internet
+- If this fails but internal ping works, gateway is the issue
+
+##### Test 4: DNS Resolution
+cmd
+ping google.com
+Output:
+https://screenshots/ipconfig-all.png
+
+##### What I Learned:
+
+- Tests internet connectivity without DNS dependency
+- Good response time (12ms) indicates healthy internet
+- If this fails but internal ping works, gateway is the issue
+
+##### Key takeaway
+
+Use a layered approach with ping: first loopback (127.0.0.1), then my own IP, then the gateway, then an external IP like 8.8.8.8, and finally a domain name like google.com. This tells me exactly where the connectivity problem is - whether it's local, network, or DNS-related.
