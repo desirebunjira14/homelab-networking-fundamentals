@@ -30,6 +30,7 @@ cmd
 ipconfig /all
 Output:
 
+<img width="1600" height="1200" alt="WhatsApp Image 2026-06-21 at 11 10 11 PM" src="https://github.com/user-attachments/assets/cd85694e-ecab-4623-975d-6928a9e204ef" />
 
 
 ##### What I Learned:
