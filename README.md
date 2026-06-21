@@ -28,6 +28,7 @@ Command:
 
 cmd
 ipconfig /all
+
 Output:
 
 <img width="1600" height="1200" alt="WhatsApp Image 2026-06-21 at 11 10 11 PM" src="https://github.com/user-attachments/assets/cd85694e-ecab-4623-975d-6928a9e204ef" />
@@ -46,6 +47,7 @@ Why I ran it: To verify connectivity at different levels - local, network, inter
 ##### Test 2.1: Local Connectivity
 cmd
 ping 127.0.0.1
+
 Output:
 
 <img width="1600" height="1200" alt="WhatsApp Image 2026-06-21 at 11 10 11 PM (1)" src="https://github.com/user-attachments/assets/80864d11-9ee6-4a92-ad7f-8a1359305ba6" />
@@ -61,6 +63,7 @@ Output:
 ##### Test 2.2: Network Connectivity
 cmd
 ping 172.16.0.10
+
 Output:
 
 <img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/601dab24-17da-473a-b97c-4d9ed5e5e86e" />
@@ -75,8 +78,11 @@ Output:
 ##### Test 3: Internet Connectivity
 cmd
 ping 8.8.8.8
+
 Output:
-https://screenshots/ipconfig-all.png
+
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/357da5d9-fcfc-4246-8d61-5820c79eca39" />
+
 
 ##### What I Learned:
 
@@ -89,7 +95,9 @@ cmd
 ping google.com
 
 Output:
-https://screenshots/ipconfig-all.png
+
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/9643eaa0-0e56-4d5d-9efd-f87e3179d882" />
+
 
 ##### What I Learned:
 
@@ -110,7 +118,8 @@ cmd
 tracert google.com
 
 Output:
-https://screenshots/ipconfig-all.png
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/cb521a1c-39e7-4449-b437-54d2bccbe413" />
+
 
 ##### What I Learned:
 
@@ -132,7 +141,8 @@ cmd
 nslookup google.com
 
 Output:
-https://screenshots/ipconfig-all.png
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/92388ca6-a0e1-4938-a166-4b5a5b456616" />
+
 
 ##### What I Learned:
 
