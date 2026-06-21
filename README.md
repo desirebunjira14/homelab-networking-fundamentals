@@ -81,6 +81,7 @@ https://screenshots/ipconfig-all.png
 ##### Test 4: DNS Resolution
 cmd
 ping google.com
+
 Output:
 https://screenshots/ipconfig-all.png
 
