@@ -58,11 +58,13 @@ Output:
 - This is the first test before checking anything else
 - Identifies which DNS servers are being used
 
-##### Test 2: Network Connectivity
+##### Test 2.2: Network Connectivity
 cmd
 ping 172.16.0.10
 Output:
-https://screenshots/ipconfig-all.png
+
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/601dab24-17da-473a-b97c-4d9ed5e5e86e" />
+
 
 ##### What I Learned:
 
