@@ -102,6 +102,7 @@ Why I ran it: To find where network connectivity breaks along the path to a dest
 
 cmd
 tracert google.com
+
 Output:
 https://screenshots/ipconfig-all.png
 
@@ -123,6 +124,7 @@ Why I ran it: To verify DNS is working and which DNS server is being used.
 
 cmd
 nslookup google.com
+
 Output:
 https://screenshots/ipconfig-all.png
 
@@ -144,6 +146,7 @@ Why I ran it: To verify specific services are running and accessible.
 
 powershell
 Test-NetConnection DC01 -Port 53
+
 Output:
 https://screenshots/ipconfig-all.png
 
